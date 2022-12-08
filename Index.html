@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoTabuada</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
+</head>
+
+<body class="fundodetela">
+
+    <h1>Projeto Tabuada</h1>
+
+    <span> Digite um numero: </span>
+    <input type="text" onchange="habilitaBotaoGerar()" id="numero" size="7" maxlength="2"><br><br><br>
+    <div>
+
+        <input disabled="true" type=button class="botoes" id="gerar" onclick="GerarTabuada()" value="Gerar tabuada">
+        <input type="button" class="botoes" id="limpar" onclick="LimparNumero()" value="Limpa numero"><br><br>
+    </div>
+
+    <div id="resultado">
+    </div><br>
+
+    <input type=button class="botoes" onclick="SairDoSitema()" value="               Sair do sistema             ">
+
+    </div><br><br><br>
+    <footer>Direitos reservados a Sudário Gonçalves- 3ºPeriodo - UNA/Contagem - 12/2022
+    </footer>
+    </div>
+
+</body>
+
+</html>
