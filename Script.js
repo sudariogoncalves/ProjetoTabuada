@@ -30,6 +30,7 @@ function GerarTabuada() {
 function LimparNumero() {
    document.getElementById('numero').value = '';
    document.getElementById('resultado').innerHTML = '';
+   document.getElementById('gerar').disabled = true;
 }
 
 function SairDoSitema() {
